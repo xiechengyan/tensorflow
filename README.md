@@ -12,3 +12,11 @@ Anaconda 安装 Tensorflow  http://blog.51cto.com/acevi/2103437
   conda create -n tensorflow python=3.6
   pip install tensorflow
 这里载入的是 1.12.0 tensorflow 
+
+ImportError：No module named 'tensorflow'？
+pip install --upgrade -I setuptools
+pip install --upgrade --ignore-installed tensorflow
+出现 “distributed 1.21.0 requires msgpack, which is not installed”
+run this command 
+conda install -c anaconda msgpack-python
+或者 pip install msgpack
