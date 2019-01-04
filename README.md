@@ -5,3 +5,5 @@ https://blog.csdn.net/yz960611/article/details/78538488
 
 
 Anaconda 安装 Tensorflow  http://blog.51cto.com/acevi/2103437
+python 3.6 下        conda create -n tensorflow python=3.6
+                     pip install tensorflow
